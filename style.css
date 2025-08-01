@@ -11,8 +11,9 @@ body{
 
 .gallery{
     width: 900px;
+    height: 300px;
     display: flex;
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
 .gallery div{
@@ -42,7 +43,7 @@ body{
     margin: 10% auto;
 }
 
-#backeBtn, #nextBtn{
+#backBtn, #nextBtn{
     width: 50px;
     cursor: pointer;
     margin: 40px;
@@ -52,4 +53,51 @@ body{
     filter: grayscale(0);
     cursor: pointer;
     transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .gallery-container {
+        width: 100%;
+        padding: 5px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .gallery-container img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .gallery-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+ 
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .gallery-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+    }
 }
