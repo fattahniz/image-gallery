@@ -35,7 +35,6 @@ A simple, stylish **horizontal scroll image gallery** made using HTML, CSS, and 
    cd horizontal-scroll-gallery
 
 
-CHECK-OUT my linkedin:
-linkedin.com/in/abdulfattahnizamani
+CHECK-OUT my [linkedin](linkedin.com/in/fattahniz)
 
 for any updates about this field
