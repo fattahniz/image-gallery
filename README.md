@@ -18,7 +18,7 @@ A simple, stylish **horizontal scroll image gallery** made using HTML, CSS, and 
 1. Clone the repo
 ```bash
    git clone https://github.com/fattahniz/horizontal-scroll-gallery.git
-cd horizontal-scroll-gallery
+cd image-gallery
 ```
 
 3. Run locally
