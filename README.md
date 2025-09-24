@@ -2,8 +2,6 @@
 
 A simple, stylish **horizontal scroll image gallery** made using HTML, CSS, and JavaScript. Scroll through images using the mouse wheel or with left/right navigation buttons. Built as part of a daily UI project to enhance frontend skills.
 
----
-
 ## 🚀 Features
 
 - Horizontal scrolling with mouse wheel
@@ -11,30 +9,38 @@ A simple, stylish **horizontal scroll image gallery** made using HTML, CSS, and 
 - Fully responsive layout
 - Extendable design for product showcases, portfolios, or galleries
 
----
+## 🛠️ Tech Stack
+**Frontend:** HTML, CSS, JavaScript (ES6+)
 
-## 🛠️ Technologies Used
+**Deployment:** Vercel
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
+## Installation
+1. Clone the repo
+```bash
+   git clone https://github.com/fattahniz/horizontal-scroll-gallery.git
+cd horizontal-scroll-gallery
+```
 
----
+3. Run locally
+Open index.html directly in your browser or use a Live Server extension in VS Code.
 
-## 📸 Live Preview
+## 📂 Project Structure
+```css
+project/
+│── index.html
+│── style.css
+│── main.js
+│── images/
+│── README.md
+```
 
-🌐 [View Live on Vercel](https://image-gallery-pox8p6ptp-abdul-fattahs-projects-47120c93.vercel.app/)
+## 🤝 Contributing
+Fork the repo
 
----
+1. Create a new branch (feature/my-feature)
+2. Commit changes
+3. Push branch and create a Pull Request
 
-## 💻 Project Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/abdulfattahnizamani/horizontal-scroll-gallery.git
-   cd horizontal-scroll-gallery
-
-
-CHECK-OUT my [linkedin](linkedin.com/in/fattahniz)
-
-for any updates about this field
+## 📄 License
+This project is licensed under the [MIT License](LICENSE) – see the LICENSE
+file for details.
